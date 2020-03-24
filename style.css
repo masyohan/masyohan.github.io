@@ -1,0 +1,129 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+span{
+  color: yellow;
+}
+header{
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: orange;
+  height: 10vh;
+  padding: 0 30px;
+  position: sticky;
+  z-index: 100;
+}
+nav ul{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav li{
+  padding: 10px 20px;
+  list-style-type: none;
+}
+nav a{
+  font-weight: 700;
+  color:white;
+  text-decoration: none;
+
+}
+nav a:hover{
+  color: black;
+}
+#banner{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url('img/banner.jpeg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 90vh;
+  width: 100%;
+}
+#tagline{
+  color: white;
+  letter-spacing: 2px;
+}
+#tagline h1{
+  font-size: 90px;
+  font-weight: 700;
+}
+#tagline h3{
+  font-size: 50px;
+  font-weight: lighter;
+  color: yellow;
+}
+
+#about{
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 50px;
+  letter-spacing: 2px;
+
+}
+#instructor{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#instructor-list{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.instructor-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items:center;
+}
+#testimoni{
+  align-items: center;
+  background-color: grey;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+}
+.testi-item{
+  text-align: left;
+  width: 500px;
+  background-color: white;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  padding: 10px 30px;
+  border-radius: 5px 5px 0 0;
+}
+.testi-item p{
+  margin-left: 10px;
+}
+.avatar{
+
+  border-radius: 50%;
+}
+
+footer{
+  padding: 10px 30px;
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
